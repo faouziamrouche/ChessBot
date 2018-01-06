@@ -1,0 +1,207 @@
+# depslib dependency file v1.0
+1486632354 source:c:\users\pc\desktop\prog echec\chessmat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"Board.h"
+	"initialisation.c"
+	"affichage.c"
+	"deplacement.c"
+
+1486501203 c:\users\pc\desktop\prog echec\chessmat\board.h
+
+1486632494 c:\users\pc\desktop\prog echec\chessmat\initialisation.c
+	"Board.h"
+
+1486413337 c:\users\pc\desktop\prog echec\chessmat\affichage.c
+	"Board.h"
+
+1486632335 c:\users\pc\desktop\prog echec\chessmat\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"regle_de_deplacement.c"
+
+1486245610 c:\users\pc\desktop\prog echec\chessmat\regle_de_deplacement.c
+
+1486756134 source:c:\users\mon pc\documents\anad\nouveau dossier\chessmat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"Board.h"
+	"initialisation.c"
+	"affichage.c"
+	"deplacement.c"
+	"Menacer.c"
+	"estimation.c"
+
+1486501203 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\board.h
+
+1486688987 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\initialisation.c
+	"Board.h"
+
+1486413337 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\affichage.c
+	"Board.h"
+
+1486755587 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"regle_de_deplacement.c"
+
+1486245610 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\regle_de_deplacement.c
+
+1486680368 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\menacer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Board.h"
+
+1486756163 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\estimation.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"evaluation_des_pieces.h"
+
+1486749934 c:\users\mon pc\documents\anad\nouveau dossier\chessmat\evaluation_des_pieces.h
+
+1487030590 source:h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<signal.h>
+	"Board.h"
+	"initialisation.c"
+	"affichage.c"
+	"deplacement.c"
+	"Menacer.c"
+	"estimation.c"
+
+1486501203 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\board.h
+
+1486688987 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\initialisation.c
+	"Board.h"
+
+1486413337 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\affichage.c
+	"Board.h"
+
+1486755587 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"regle_de_deplacement.c"
+
+1486245610 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\regle_de_deplacement.c
+
+1486680368 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\menacer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Board.h"
+
+1487028487 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\estimation.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"evaluation_des_pieces.h"
+
+1486749934 h:\anis\education\cours esi\2cs\s1\esi mat\pour arena\nouveau dossier\chessmat\evaluation_des_pieces.h
+
+1487030590 source:c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<signal.h>
+	"Board.h"
+	"initialisation.c"
+	"affichage.c"
+	"deplacement.c"
+	"Menacer.c"
+	"estimation.c"
+
+1486501203 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\board.h
+
+1486688987 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\initialisation.c
+	"Board.h"
+
+1486413337 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\affichage.c
+	"Board.h"
+
+1486755587 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"regle_de_deplacement.c"
+
+1486245610 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\regle_de_deplacement.c
+
+1486680368 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\menacer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Board.h"
+
+1487028487 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\estimation.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"evaluation_des_pieces.h"
+
+1486749934 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-final\chessmat\evaluation_des_pieces.h
+
+1487203736 source:c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<signal.h>
+	"Board.h"
+	"initialisation.c"
+	"affichage.c"
+	"deplacement.c"
+	"estimation.c"
+
+1486501203 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\board.h
+
+1487203581 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\initialisation.c
+	"Board.h"
+
+1487203581 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\affichage.c
+	"Board.h"
+
+1487203581 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"regle_de_deplacement.c"
+	"Menacer.c"
+
+1487204154 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\regle_de_deplacement.c
+
+1486680368 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\menacer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Board.h"
+
+1487203581 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\estimation.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Board.h"
+	"evaluation_des_pieces.h"
+
+1487035465 c:\users\pc\desktop\esimat atelier 14-02-2017\chessmat-avec arena\chessmat\evaluation_des_pieces.h
+

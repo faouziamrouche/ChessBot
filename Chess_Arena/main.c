@@ -3,10 +3,13 @@
 #include <stdbool.h>
 #include <string.h>
 #include <signal.h>
+//#include <threads.h>
+#include <omp.h>
 #include "Board.h"
 #include "initialisation.c"
 #include "affichage.c"
 #include "deplacement.c"
+
 //#include "Menacer.c"
 #include "estimation.c"
 #define MAX 1
@@ -271,6 +274,7 @@ int minmax( struct configuration conf, int mode, int niv)
     if ( mode == MAX )
     {
         n = cout_possible( T, conf, MAX);
+        #pragma omp parallel for
         for ( i=0; i<n; i++ )
         {
             score2 = minmax( T[i], MIN, niv-1);
@@ -280,6 +284,7 @@ int minmax( struct configuration conf, int mode, int niv)
     else    // mode == MIN
     {
         n=cout_possible(T, conf, MIN);
+        #pragma omp parallel for
         for ( i=0; i<n; i++ )
         {
             score2 = minmax( T[i], MAX, niv-1);
@@ -328,7 +333,7 @@ void xboard() /// L'interface de comunication avec le logiciel ARENA
     bool jump_line=false;
     chemin.taille=0;
     configuration tab_conf[100];
-    hauteur=2;
+    hauteur=3;
     computer_side= DARK;
     int debut = 0;
     lireFichier();
